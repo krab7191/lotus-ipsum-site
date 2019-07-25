@@ -1,0 +1,43 @@
+.color-darkest {
+	color: #0c0032;
+}
+
+.bg-darkest {
+	background-color: #0c0032;
+}
+
+.color-darker {
+	color: #190061;
+}
+
+.bg-darker {
+	background-color: #190061;
+}
+
+.color-dark {
+	color: #240090;
+}
+
+.bg-dark {
+	background-color: #240090;
+}
+
+.color-gray {
+	color: #282828;
+}
+
+.bg-gray {
+	background-color: #282828;
+}
+
+.color-primary {
+	color: #3500d3;
+}
+
+.bg-primary {
+	background-color: #3500d3;
+}
+
+.color-text {
+	color: #FEFEFE;
+}
