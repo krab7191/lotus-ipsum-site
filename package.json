@@ -1,0 +1,30 @@
+{
+  "name": "lotus-ipsum",
+  "version": "0.0.1",
+  "description": "Yet another Lorem Ipsum generator. This one based off of the popular card game, Magic the Gathering.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "12.2.0",
+    "npm": "6.10.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krab7191/lotus-ipsum.git"
+  },
+  "keywords": [
+    "MTG",
+    "lorem",
+    "ipsum",
+    "magic",
+    "gathering"
+  ],
+  "author": "Karsten Rabe (https://github.com/krab7191)",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/krab7191/lotus-ipsum/issues"
+  },
+  "homepage": "https://github.com/krab7191/lotus-ipsum#readme"
+}
