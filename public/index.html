@@ -12,6 +12,7 @@
 		<link rel="stylesheet" href="reset.css">
 		<link rel="stylesheet" href="theme.css">
 		<link rel="stylesheet" href="styles.css">
+		<script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
 	</head>
 	<body>
 		<!--[if lt IE 7]>
@@ -29,8 +30,12 @@
 			<p>How many answers do you need?</p>
 			<hr>
 			<div id="text-container" class="color-text"></div>
+			<div id="message-container"></div>
 			<input type="number" id="num-paras" placeholder="3" />
 			<button type="button" id="generate-button" onclick="getParagraphs()">Generate!</button>
+			<button type="button" data-clipboard-target="#text-container"
+				id="copy-button">Copy to
+				clipboard</button>
 		</div>
 		<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 		<script src="main.js"></script>

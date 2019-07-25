@@ -41,3 +41,21 @@ h1 {
 	display: none;
 	padding: 10px;
 }
+
+#message-container {
+	visibility: hidden;
+	padding: 15px;
+	border-radius: 4px;
+	background-color: #FEFEFE;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+button, input {
+	padding: 10px;
+	border-radius: 4px;
+	box-shadow: 0 1px 4px 1px #282828;
+	cursor: pointer;
+}
