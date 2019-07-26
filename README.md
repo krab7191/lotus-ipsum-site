@@ -8,3 +8,6 @@ Yet another Lorem Ipsum generator. This one based off of the popular card game, 
 - You can get paragraphs from the public API by making a GET request to:
 	`https://lotus-ipsum.herokuapp.com/api/ipsum/<number of paragraphs>`
 	Note: The default is 1, and the maximum is 20.
+
+- Lotus-Ipsum is also available as an NPM package [here](https://www.npmjs.com/package/lotus-ipsum)
+	Source code [here](https://github.com/krab7191/lotus-ipsum)
