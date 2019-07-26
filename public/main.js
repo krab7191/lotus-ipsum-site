@@ -42,4 +42,9 @@ function clipboardMsg(success) {
 		e.clearSelection();
 		clipboardMsg(false);
 	});
+
+	document.onkeyup = function (e) {
+		const key = e.keyCode;
+		key === 13 && getParagraphs();
+	}
 })();
