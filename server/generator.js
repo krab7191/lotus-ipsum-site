@@ -20,6 +20,8 @@ module.exports = {
 		return para;
 	},
 	generatePlaceholderText: function (numParas) {
+		numParas > 20 && (numParas = 20);
+		console.log(`Generating ${numParas} paragraphs`);
 		let text = '';
 		for (let i = 0; i < numParas; i++) {
 			text = text + `\n\n` + this.constructParagraph();
