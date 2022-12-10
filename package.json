@@ -32,7 +32,7 @@
   "homepage": "https://github.com/krab7191/lotus-ipsum#readme",
   "dependencies": {
     "morgan": "^1.9.1",
-    "express": "^4.17.1"
+    "express": "^4.17.3"
   },
   "devDependencies": {
     "if-env": "^1.0.4",
