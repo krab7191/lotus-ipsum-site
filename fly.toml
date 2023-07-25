@@ -1,0 +1,15 @@
+# fly.toml app configuration file generated for lotus-ipsum on 2023-07-25T14:35:31-04:00
+#
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
+
+app = "lotus-ipsum"
+primary_region = "iad"
+
+[http_service]
+  internal_port = 3000
+  force_https = true
+  auto_stop_machines = true
+  auto_start_machines = true
+  min_machines_running = 0
+  processes = ["app"]

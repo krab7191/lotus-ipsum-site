@@ -4,10 +4,10 @@
   "description": "Yet another Lorem Ipsum generator. This one based off of the popular card game, Magic the Gathering.",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
     "start:prod": "node app",
-    "start:dev": "nodemon app"
+    "start:dev": "nodemon app",
+    "deploy": "fly deploy"
   },
   "engines": {
     "node": "19.3.0",
@@ -32,10 +32,11 @@
   "homepage": "https://github.com/krab7191/lotus-ipsum#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "morgan": "^1.9.1"
-  },
-  "devDependencies": {
+    "morgan": "^1.9.1",
     "if-env": "^1.0.4",
     "nodemon": "^2.0.21"
+  },
+  "devDependencies": {
+    "@flydotio/dockerfile": "^0.4.0"
   }
 }

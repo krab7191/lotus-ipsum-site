@@ -4,7 +4,7 @@ const express = require('express');
 const morgan = require('morgan');
 const routes = require('./server/routes/ipsum');
 const app = express();
-const port = process.env.PORT || 3001;
+const port = process.env.PORT || 3000;
 
 process.env.NODE_ENV === 'production' &&
 	// Request logger
@@ -29,7 +29,7 @@ app.use(function (req, res) {
 });
 
 // listen for requests
-app.listen(port, function () {
+app.listen(port, '0.0.0.0', function () {
 	console.log(`Server is listening on port ${port}`);
 });
 
