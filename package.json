@@ -31,7 +31,7 @@
   },
   "homepage": "https://github.com/krab7191/lotus-ipsum#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.22.2",
     "if-env": "^1.0.4",
     "morgan": "^1.9.1"
   },
